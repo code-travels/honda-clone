@@ -5,8 +5,8 @@ import _implicitStylesheets from "./leadForm.css";
 import _implicitScopedStylesheets from "./leadForm.scoped.css?scoped=true";
 
 import {parseFragment, registerTemplate} from "lwc";
-const $fragment1 = parseFragment`<input type="hidden" name="oid" value="00D8b000002TfLq"${3}>`;
-const $fragment2 = parseFragment`<input type="hidden" name="retURL" value="https://lwr-honda-clone.netlify.app/"${3}>`;
+const $fragment1 = parseFragment`<input type="hidden" name="oid" value="00D5i00000DSKFm"${3}>`;
+const $fragment2 = parseFragment`<input type="hidden" name="retURL" value="https://cosmic-horse-9ab199.netlify.app/"${3}>`;
 const $fragment3 = parseFragment`<input type="submit" name="submit" class="slds-hide${0}"${2}>`;
 const stc0 = {
   attrs: {
