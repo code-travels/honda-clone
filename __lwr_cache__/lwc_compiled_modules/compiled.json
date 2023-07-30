@@ -130,7 +130,7 @@
   [
     "pages/buildAndPrice@0.0.1",
     {
-      "ownHash": "441ca3cca9c75a0b43f7601b9ed41e35",
+      "ownHash": "5246a558474f49cf89c4bab253d80d14",
       "module": "./cache/pages_buildAndPrice_0_0_1.js",
       "moduleMeta": "./cache/pages_buildAndPrice_0_0_1.meta.json"
     }
@@ -138,7 +138,7 @@
   [
     "pages/buildAndPrice#buildAndPrice.html@0.0.1",
     {
-      "ownHash": "3c956fe9392fda24f3f6392fdd1a59db",
+      "ownHash": "7eb56e59c92a59d26d6f5511900bd54a",
       "module": "./cache/pages_buildAndPrice_buildAndPrice_html_0_0_1.js",
       "moduleMeta": "./cache/pages_buildAndPrice_buildAndPrice_html_0_0_1.meta.json"
     }
@@ -357,6 +357,38 @@
       "ownHash": "13fcec3d73f055fccd306149598cb9b5",
       "module": "./cache/components_priceFooter_priceFooter_scoped_css_scoped=true_0_0_1.js",
       "moduleMeta": "./cache/components_priceFooter_priceFooter_scoped_css_scoped=true_0_0_1.meta.json"
+    }
+  ],
+  [
+    "components/leadForm@0.0.1",
+    {
+      "ownHash": "4ee11001d0c4559d90ddae02bf2f4d35",
+      "module": "./cache/components_leadForm_0_0_1.js",
+      "moduleMeta": "./cache/components_leadForm_0_0_1.meta.json"
+    }
+  ],
+  [
+    "components/leadForm#leadForm.html@0.0.1",
+    {
+      "ownHash": "7f6bbeea174313ca6e6d636944f401f8",
+      "module": "./cache/components_leadForm_leadForm_html_0_0_1.js",
+      "moduleMeta": "./cache/components_leadForm_leadForm_html_0_0_1.meta.json"
+    }
+  ],
+  [
+    "components/leadForm#leadForm.css@0.0.1",
+    {
+      "ownHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "module": "./cache/components_leadForm_leadForm_css_0_0_1.js",
+      "moduleMeta": "./cache/components_leadForm_leadForm_css_0_0_1.meta.json"
+    }
+  ],
+  [
+    "components/leadForm#leadForm.scoped.css?scoped=true@0.0.1",
+    {
+      "ownHash": "13fcec3d73f055fccd306149598cb9b5",
+      "module": "./cache/components_leadForm_leadForm_scoped_css_scoped=true_0_0_1.js",
+      "moduleMeta": "./cache/components_leadForm_leadForm_scoped_css_scoped=true_0_0_1.meta.json"
     }
   ]
 ]

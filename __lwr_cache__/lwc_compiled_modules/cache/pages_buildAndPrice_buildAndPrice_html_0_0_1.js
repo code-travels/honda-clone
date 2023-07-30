@@ -8,13 +8,13 @@ import _componentsCarDetails from "components/carDetails";
 import _componentsRangeSelection from "components/rangeSelection";
 import _componentsColorSelection from "components/colorSelection";
 import _componentsPriceFooter from "components/priceFooter";
+import _componentsLeadForm from "components/leadForm";
 import _componentsModal from "components/modal";
 import {parseFragment, registerTemplate} from "lwc";
 const $fragment1 = parseFragment`<h2 class="slds-text-heading_large${0}"${2}>CR-V Range</h2>`;
 const $fragment2 = parseFragment`<h2 class="slds-text-heading_large slds-m-top_large${0}"${2}>CR-V Colors</h2>`;
-const $fragment3 = parseFragment`<h1${3}>Form will come here</h1>`;
-const $fragment4 = parseFragment`<button class="slds-button slds-button_neutral${0}"${2}>Cancel</button>`;
-const $fragment5 = parseFragment`<button class="slds-button slds-button_destructive${0}"${2}>Submit</button>`;
+const $fragment3 = parseFragment`<button class="slds-button slds-button_neutral${0}"${2}>Cancel</button>`;
+const $fragment4 = parseFragment`<button class="slds-button slds-button_destructive${0}"${2}>Submit</button>`;
 const stc0 = {
   key: 0
 };
@@ -67,7 +67,7 @@ const stc7 = {
   attrs: {
     "slot": "footer"
   },
-  key: 18
+  key: 17
 };
 function tmpl($api, $cmp, $slotset, $ctx) {
   const {c: api_custom_element, h: api_element, st: api_static_fragment, b: api_bind, k: api_key, i: api_iterator, f: api_flatten, fr: api_fragment} = $api;
@@ -103,11 +103,16 @@ function tmpl($api, $cmp, $slotset, $ctx) {
     on: {
       "openmodal": _m2 || ($ctx._m2 = api_bind($cmp.openModalHandler))
     }
-  })])])]), $cmp.showModal ? api_fragment(14, [api_custom_element("components-modal", _componentsModal, stc6, [api_static_fragment($fragment3(), 17), api_element("div", stc7, [api_static_fragment($fragment4(), 20, {
+  })])])]), $cmp.showModal ? api_fragment(14, [api_custom_element("components-modal", _componentsModal, stc6, [api_custom_element("components-lead-form", _componentsLeadForm, {
+    props: {
+      "description": $cmp.description
+    },
+    key: 16
+  }), api_element("div", stc7, [api_static_fragment($fragment3(), 19, {
     on: {
       "click": _m4 || ($ctx._m4 = api_bind($cmp.cancelHandler))
     }
-  }), api_static_fragment($fragment5(), 22, {
+  }), api_static_fragment($fragment4(), 21, {
     on: {
       "click": _m6 || ($ctx._m6 = api_bind($cmp.submitHander))
     }
